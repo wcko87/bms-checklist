@@ -144,7 +144,7 @@ If you are using beatoraja, the preview file will play when you hover over the s
 
 # Charting Tips
 Charts in general can be very subjective. But there are some pointers (you don't have to follow them always!) that you might want to take note of:
-1. The scratch key is not an 8th note, it plays differently from the rest of the notes in practice ([video](https://www.youtube.com/watch?v=nFnoSCTNWY0) [examples](https://www.youtube.com/watch?v=f62Ty4lMO3w) of [how](https://www.youtube.com/watch?v=8iwK1emZJEY) [scratches](https://www.youtube.com/watch?v=ToUwWaJEQyg) [typically](https://www.youtube.com/watch?v=qpcZrQ6AjmQ) [look](https://www.youtube.com/watch?v=1bq92Bdxex0)).
+1. Don't chart the scratch key like an 8th note, as it plays differently from other notes ([video](https://www.youtube.com/watch?v=nFnoSCTNWY0) [examples](https://www.youtube.com/watch?v=f62Ty4lMO3w) of [how](https://www.youtube.com/watch?v=8iwK1emZJEY) [scratches](https://www.youtube.com/watch?v=ToUwWaJEQyg) [typically](https://www.youtube.com/watch?v=qpcZrQ6AjmQ) [look](https://www.youtube.com/watch?v=1bq92Bdxex0)).
 2. The scratch key is usually bound to vocal samples, scratch sounds, or cymbal crashes. Using piano notes as scratches may feel odd.
 3. Try to keep the kick drum on a consistent key (key 1 is the most popular). It's okay to swap the kick lane around during the chart, but it may feel awkward if the kick keysounds is spread over arbitrarily lanes, especially if it's a consistent kick every 4/4 beat). I sometimes swap the kick key every 4 or 8 measures.
 4. Long scratch notes on a controller requires the player to use a hand to constantly rotate the turntable. Beware of potential impossible patterns that can result from improper use of these.
