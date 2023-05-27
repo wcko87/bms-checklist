@@ -50,7 +50,15 @@ If the BGA has not been completed on time, you can use an image file (e.g. `_bga
 
 **Do not make separate BMS files for the placeholder/final versions of the BGA**. If you specify your BGA as `_bga.wmv` or `_bga.mpg` but there is no \_bga.wmv or \_bga.mpg in the folder, the game will load \_bga.png instead if it exists.
 
+### Check if you have filled in your BMS metadata correctly
+See [Chart Metadata Tips](#chart-metadata-tips) below.
+
+### No keysound should exceed 60s in length
+BMS with keysounds exceeding 60s in length are automatically blocked from LR2IR. Try to cut up keysounds where possible, even if they are not used in the chart. If you need to use long keysounds (e.g. vocal tracks), split them into \~40 segments.
+
 ### Check for errors using Anzu BMS Diff
+This is a recommendation and isn't absolutely necessary.
+
 When making charts of different difficulties using ubmsc, make sure that you have `Disable vertical moves (D)` checked when moving notes around. This is to prevent accidental upward/downward shifting of keysounds when charting.
 
 Before submitting, use a BMS diff tool to check that your keysounds have not been shifted upward/downward by accident between charts. The diff tool can also be used to check that the metadata isn't different between charts (for example, specifying a stagefile in one chart but forgetting to do so in another).
@@ -58,12 +66,6 @@ Before submitting, use a BMS diff tool to check that your keysounds have not bee
 - [Anzu BMS Diff](https://yuinore.net/2015/12/difftool/)
   - Search (ctrl+f) for "Anzu BMS Diff Toolをダウンロード" if you can't find the download link.
 - [Online BMS diff tool](https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm)
-
-### Check if you have filled in your BMS metadata correctly
-See [Chart Metadata Tips](#chart-metadata-tips) below.
-
-### No keysound should exceed 60s in length
-BMS with keysounds exceeding 60s in length are automatically blocked from LR2IR. Try to cut up keysounds where possible, even if they are not used in the chart. If you need to use long keysounds (e.g. vocal tracks), split them into \~40 segments.
 
 ### Avoid modifying BMS files after release
 Every time you make any small change to a bms file (a chart), the file hash changes, so it is identified as a different chart.
