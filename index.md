@@ -1,7 +1,7 @@
 # Common Pitfalls
 This a checklist of things to watch out for when submitting a BMS.
 
-### Zip the BMS in a folder.
+### Zip the BMS in a folder
 Do not place the your files directly into the zip. They should be placed in a folder, then zipped (like the example below).
 ```
 songname.zip
