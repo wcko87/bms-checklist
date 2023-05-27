@@ -1,4 +1,15 @@
-# Common Pitfalls
+# Things to look out for during BMS production
+
+### Encode BMS files in SHIFT-JIS
+If using ubmsc, go to Options -> General Options and change the Text Encoding option to SHIFT-JIS. This matters if you are using japanese or otherwise non-ASCII characters in your title/artist etc.
+
+### Make sure your maximum grid partition is high enough in ubmsc
+If you are using ubmsc for your charts and are getting the **"Warning: Note overlapping detected. Increasing Maximum Grid Partition will resolve this."** error, don't ignore it.
+
+If you get this warning despite not having overlapping notes, you should go to `Options -> General Options` and increase "Max Grid Partition in BMS" to a large value like 10000. 
+
+
+# Things to look out for before submission
 This a checklist of things to watch out for when submitting a BMS.
 
 ### Zip the BMS in a folder
@@ -53,15 +64,6 @@ See [Chart Metadata Tips](#chart-metadata-tips) below.
 
 ### No keysound should exceed 60s in length
 BMS with keysounds exceeding 60s in length are automatically blocked from LR2IR. Try to cut up keysounds where possible, even if they are not used in the chart. If you need to use long keysounds (e.g. vocal tracks), split them into \~40 segments.
-
-### Encode BMS files in SHIFT-JIS
-If using ubmsc, go to Options -> General Options and change the Text Encoding option to SHIFT-JIS. This matters if you are using japanese or otherwise non-ASCII characters in your title/artist etc.
-
-### Make sure your maximum grid partition is high enough in ubmsc
-If you are using ubmsc for your charts and are getting the **"Warning: Note overlapping detected. Increasing Maximum Grid Partition will resolve this."** error, don't ignore it.
-
-If you get this warning despite not having overlapping notes, you should go to `Options -> General Options` and increase "Max Grid Partition in BMS" to a large value like 10000. 
-
 
 ### Avoid modifying BMS files after release
 Every time you make any small change to a bms file (a chart), the file hash changes, so it is identified as a different chart.
