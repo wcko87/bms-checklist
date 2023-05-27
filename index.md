@@ -12,6 +12,17 @@ If you get this warning despite not having overlapping notes, you should go to `
 # Things to look out for before submission
 This a checklist of things to watch out for when submitting a BMS.
 
+### Do not submit an incomplete BMS
+A BMS is incomplete if the keysounds have not been fully cut or there isn't at least one complete chart.
+
+Sometimes, people try to register (aka submit) their BMS before it is done in order to get in before the deadline or to get their entry in a higher ranked position on the page (to make their entry more visible). They will then amend the download link later with the completed BMS.
+Often, this goes against the rules of the event and will cause you to get disqualified.
+
+Note that it is alright to add the BGA or additional charts later in an update. However this may mean that your BGA or additional charts won't make it into the initial song pack, so many players end up never having them.
+
+### No keysound should exceed 60s in length
+BMS with keysounds exceeding 60s in length are automatically blocked from LR2IR. Try to cut up keysounds where possible, even if they are not used in the chart. If you need to use long keysounds (e.g. vocal tracks), split them into \~40 segments.
+
 ### Zip the BMS in a folder
 Do not place the your files directly into the zip. They should be placed in a folder, then zipped (like the example below).
 ```
@@ -31,7 +42,7 @@ songname.zip
 This applies to both file and folder names. For example, use kyokumei.bms and gabberkick.ogg instead of 曲名.bms and ガバーキック.ogg.
 
 ### Please convert your keysounds to ogg
-wav keysounds usually have ridiculously large file sizes. Use a tool like [oggenc2](https://www.rarewares.org/ogg-oggenc.php) to convert the keysound files to ogg to reduce the total file size.
+wav keysounds usually have ridiculously large file sizes. Use a tool like [oggdropXPd](https://www.rarewares.org/ogg-oggdropxpd.php) or [oggenc2](https://www.rarewares.org/ogg-oggenc.php) to convert the keysound files to ogg to reduce the total file size.
 
 As a rough guide, try to keep the total size of your keysounds below 40MB if possible.
 
@@ -53,8 +64,15 @@ If the BGA has not been completed on time, you can use an image file (e.g. `_bga
 ### Check if you have filled in your BMS metadata correctly
 See [Chart Metadata Tips](#chart-metadata-tips) below.
 
-### No keysound should exceed 60s in length
-BMS with keysounds exceeding 60s in length are automatically blocked from LR2IR. Try to cut up keysounds where possible, even if they are not used in the chart. If you need to use long keysounds (e.g. vocal tracks), split them into \~40 segments.
+### Avoid modifying BMS files after release
+Every time you make any small change to a bms file (a chart), the file hash changes, so it is identified as a different chart.
+
+If you modify a chart after release (even if it's like 30 minutes after release) and update your download link, it is often the case where there will be two different versions of your chart floating around - some people download your new version directly, while others will still have your old version (especially if your old version made it into the song pack which is often compiled immediately after release).
+This can make it quite confusing for players down the road as people don't often update their chart versions.
+
+Thus, it is good to check that you have done everything right before the initial release, so that an update to fix the charts won't be necessary down the road.
+
+Note that updating the keysounds, the BGA, or adding new charts is completely fine as long as no edits are made to existing bms files.
 
 ### Check for errors using Anzu BMS Diff
 This is a recommendation and isn't absolutely necessary.
@@ -66,24 +84,6 @@ Before submitting, use a BMS diff tool to check that your keysounds have not bee
 - [Anzu BMS Diff](https://yuinore.net/2015/12/difftool/)
   - Search (ctrl+f) for "Anzu BMS Diff Toolをダウンロード" if you can't find the download link.
 - [Online BMS diff tool](https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm)
-
-### Avoid modifying BMS files after release
-Every time you make any small change to a bms file (a chart), the file hash changes, so it is identified as a different chart.
-
-If you modify a chart after release (even if it's like 30 minutes after release) and update your download link, it is often the case where there will be two different versions of your chart floating around - some people download your new version directly, while others will still have your old version (especially if your old version made it into the song pack which is often compiled immediately after release).
-This can make it quite confusing for players down the road as people don't often update their chart versions.
-
-Thus, it is good to check that you have done everything right before the initial release, so that an update to fix the charts won't be necessary down the road.
-
-Note that updating the keysounds, the BGA, or adding new charts is completely fine as long as no edits are made to existing bms files.
-
-### Do not submit an incomplete BMS
-A BMS is incomplete if the keysounds have not been fully cut or there isn't at least one complete chart.
-
-Sometimes, people try to register (aka submit) their BMS before it is done in order to get in before the deadline or to get their entry in a higher ranked position on the page (to make their entry more visible). They will then amend the download link later with the completed BMS.
-Often, this goes against the rules of the event and will cause you to get disqualified.
-
-Note that it is alright to add the BGA or additional charts later in an update. However this may mean that your BGA or additional charts won't make it into the initial song pack, so many players end up never having them.
 
 
 # Chart Metadata Tips
