@@ -4,10 +4,11 @@
 If using ubmsc, go to Options -> General Options and change the Text Encoding option to SHIFT-JIS. This matters if you are using japanese or otherwise non-ASCII characters in your title/artist etc.
 
 ### Make sure your maximum grid partition is high enough in ubmsc
-If you are using ubmsc for your charts and are getting the **"Warning: Note overlapping detected. Increasing Maximum Grid Partition will resolve this."** error, don't ignore it.
+If you are using ubmsc, make sure the "Max Grid Partition in BMS" setting (in Options -> General Options) is set to a large value like 10000.
 
-If you get this warning despite not having overlapping notes, you should go to `Options -> General Options` and increase "Max Grid Partition in BMS" to a large value like 10000. 
+The default value is 192, which causes every keysound object to snap to the nearest 192th division when you save the file. This can cause your BMS to sound different if you are using finer divisions.
 
+If you are getting the **"Warning: Note overlapping detected. Increasing Maximum Grid Partition will resolve this."** error in ubmsc, this may be the cause.
 
 # Things to look out for before submission
 This a checklist of things to watch out for when submitting a BMS.
