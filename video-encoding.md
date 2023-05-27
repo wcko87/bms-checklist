@@ -101,7 +101,7 @@ It's good to understand how the command works if you want to properly control th
 
 Note that `.\ffmpeg.exe` must always be at the start, and the output file `_bga.mp4` must always be at the end. Also, the input file `-i raw_video.mp4` should be as early as possible. The order of the other commands usually doesn't matter.
 
-#### Trick: `-preset veryslow`
+### Trick: `-preset veryslow`
 You can add `-preset veryslow` to your ffmpeg command to make the program try harder to compress the video for a better quality/filesize ratio. It will make it take longer to encode though.
 
 Here is an example:
@@ -111,7 +111,7 @@ Here is an example:
 
 ## Other FFmpeg features
 
-#### Cutting a video by timestamp
+### Cutting a video by timestamp
 Use `-ss` and `-to` to specify the start and end timestamps of the video. Place them right after ffmpeg.exe in the command.
 
 Example:
@@ -121,7 +121,7 @@ Example:
 
 This along with `-preset veryfast` can also be used to test video filters (e.g. cropping, scaling) by generating a short clip quickly.
 
-#### Cropping a video
+### Cropping a video
 Use the crop video filter to crop a video. The format is `crop=width:height:x_offset:y_offset`.
 
 Example:
@@ -132,7 +132,7 @@ Example:
 Note that you can't use `-vf` multiple times in a single command. To combine multiple video filters (e.g. crop and scale), use commas.
 
 
-#### Complex filter to letterbox video with a blurred version of itself
+### Complex filter to letterbox video with a blurred version of itself
 Some people use this instead of black bars for letterboxing.
 
 Use `-filter_complex` instead of `-vf` if you want to apply more complex operations like this.
