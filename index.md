@@ -97,7 +97,7 @@ Here's an explanation of the different chart metadata fields, because some of th
 - **Artist**: Composer name
 - **Genre**: Genre of the music
 - **Player**: Leave it as 1-Single Play (even for DP charts). See [Play Modes](#play-modes) below for more information.
-- **Rank**: Judge difficulty. Most people set it to `3 - Easy`. Avoid using Very Easy as LR2 does not support it.
+- **Rank**: Judge timing difficulty. Most people set it to `3 - Easy`. Avoid using Very Easy as LR2 does not support it.
 - **Play Level**: Numerical level shown on the chart. See [Difficulty and Levels](#difficulty-and-levels) below for more information
 - **SubTitle**: The subtitle is often used for the chart-specific name. For example, if your chart is named "My Song [SP INSANE]", My Song would be the title and [SP INSANE] would be the subtitle. It is not necessary to add a subtitle for beginner/normal/hyper/another charts.
 - **SubArtist**: often used to credit the BGA and chart maker.
