@@ -1,4 +1,6 @@
-# Things to look out for during BMS production
+# BMS Production Checklist
+
+## Things to look out for during BMS production
 
 ### Encode BMS files in SHIFT-JIS
 If using ubmsc, go to Options -> General Options and change the Text Encoding option to SHIFT-JIS. This matters if you are using japanese or otherwise non-ASCII characters in your title/artist etc.
@@ -10,7 +12,7 @@ The default value is 192, which causes every keysound object to snap to the near
 
 If you are getting the **"Warning: Note overlapping detected. Increasing Maximum Grid Partition will resolve this."** error in ubmsc, this may be the cause.
 
-# Things to look out for before submission
+## Things to look out for before submission
 This a checklist of things to watch out for when submitting a BMS.
 
 ### Do not submit an incomplete BMS
@@ -87,7 +89,7 @@ Before submitting, use a BMS diff tool to check that your keysounds have not bee
 - [Online BMS diff tool](https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm)
 
 
-# Chart Metadata Tips
+## Chart Metadata Tips
 - **Title**: Title of the song
 - **Artist**: Composer name
 - **Genre**: Genre of the music
@@ -143,7 +145,7 @@ If you are using beatoraja, the preview file will play when you hover over the s
 
 
 
-# Charting Tips
+## Charting Tips
 Charts in general can be very subjective. But there are some pointers (you don't have to follow them always!) that you might want to take note of:
 1. Don't chart the scratch key like an 8th note, as it plays differently from other notes ([video](https://www.youtube.com/watch?v=nFnoSCTNWY0) [examples](https://www.youtube.com/watch?v=f62Ty4lMO3w) of [how](https://www.youtube.com/watch?v=8iwK1emZJEY) [scratches](https://www.youtube.com/watch?v=ToUwWaJEQyg) [typically](https://www.youtube.com/watch?v=qpcZrQ6AjmQ) [look](https://www.youtube.com/watch?v=1bq92Bdxex0)).
 2. The scratch key is usually bound to vocal samples, scratch sounds, or cymbal crashes. Using piano notes as scratches may feel odd.
