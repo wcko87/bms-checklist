@@ -111,7 +111,7 @@ Here's an explanation of the different chart metadata fields, because some of th
 ### Difficulty and Levels
 There are five difficulties you can set for a chart. BEGINNER, NORMAl, HYPER, ANOTHER and INSANE.
 
-Difficulty levels are on a scale of 1-12. These are called the normal scale levels and are used for BEGINNER, NORMAL, HYPER and ANOTHER charts. However, if you label the chart as INSANE, it may be assumed to use a different scale (1-25, where insane 1 is above normal 12).
+Difficulty levels are on a scale of 1-12. These are called the normal scale levels and are used for BEGINNER, NORMAL, HYPER and ANOTHER charts. However, if you label the chart as INSANE, it sometimes refers to a different scale (1-25, where insane 1 is above normal 12).
 
 See [this link](https://github.com/wcko87/beatoraja-english-guide/wiki/Difficulty-Tables#difficulty-rating-system) for a reference on difficulty levels.
 
