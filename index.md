@@ -92,10 +92,11 @@ Before submitting, use a BMS diff tool to check that your keysounds have not bee
 
 
 # Chart Metadata Tips
+Here's an explanation of the different chart metadata fields, because some of them may not be immediately obvious.
 - **Title**: Title of the song
 - **Artist**: Composer name
 - **Genre**: Genre of the music
-- **Player**: Leave it as 1-Single Play. See [Play Modes](#play-modes) below for more information.
+- **Player**: Leave it as 1-Single Play (even for DP charts). See [Play Modes](#play-modes) below for more information.
 - **Rank**: Judge difficulty. Most people set it to `3 - Easy`. Avoid using Very Easy as LR2 does not support it.
 - **Play Level**: Numerical level shown on the chart. See [Difficulty and Levels](#difficulty-and-levels) below for more information
 - **SubTitle**: The subtitle is often used for the chart-specific name. For example, if your chart is named "My Song [SP INSANE]", My Song would be the title and [SP INSANE] would be the subtitle. It is not necessary to add a subtitle for beginner/normal/hyper/another charts.
