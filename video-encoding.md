@@ -18,10 +18,12 @@ Unfortunately there doesn't seem to be a consensus on this.
 Some people pad their BGAs with black bars to 1:1 resolutions as many skins have square BGA windows and many people use the setting to stretch BGAs.
 On ther other hand some skins have 4:3 BGA windows 
 
-- 256x256: Note that LR2SD can only render up to 256x256 for BGAs.
-- 512x512: A larger resolution for square BGAs. May be used for LR2HD, though 480p may be preferred.
-- 640x480: Possibly the most common resolution for rectangular BGAs.
-- (?)x720: Usually only for mp4 BGAs targeting people on beatoraja.
+- **256x256**: Note that LR2SD can only render up to 256x256 for BGAs.
+- **512x512**: A larger resolution for square BGAs. May be used for LR2HD, though 480p may be preferred.
+- **640x480**: Possibly the most common resolution for rectangular BGAs.
+- **(?)x720**: Usually only for mp4 BGAs targeting people on beatoraja.
+  - I recommend using 480p for mp4 BGAs though. Use 720p only if your BGA is simple enough for it to have a relatively low file size
+  - For example, encoding mp4 at 720p, crf 27, the [BGA for $trange Attraktor](https://www.youtube.com/watch?v=pJP54U-oK-I) is only 6.5MB, while the [BGA for R.I.P.](https://www.youtube.com/watch?v=QJakdR6FWdg) is 65.6MB.
 
 BGAs with less motion from frame to frame usually result in much smaller file sizes. Try to experiment with different quality settings to keep your file size low while maintaining a decent looking quality.
 
@@ -35,7 +37,7 @@ FFmpeg can also be used to crop video files, I will explain how to do so in the 
 Aka the "just make it work, thanks" guide. This guide is for windows, though things aren't too different on mac/linux.
 
 1. Download [FFmpeg](https://ffmpeg.org/download.html)
-    - DON'T DOWNLOAD THE SOURCE CODE! Look under "get packages and executable files" and select your operating system. ffmpeg-git-essentials.7z is enough for what you need.
+    - DON'T DOWNLOAD THE SOURCE CODE! Look under "get packages and executable files" and select your operating system. `ffmpeg-git-essentials.7z` is enough for what you need.
     - Direct windows download for the lazy: [ffmpeg-git-essentials.7z](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)
 2. Look for ffmpeg.exe in the bin folder. This is the only file you need.
 3. Put ffmpeg.exe and your raw video file (which I will be calling raw_video.mp4 from now on) in the same folder.
