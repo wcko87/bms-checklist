@@ -73,7 +73,9 @@ Note: the output file will be `_bga.mp4`.
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=-2:720" -an -crf 27 _bga.mp4
 ```
 
-Replace `-crf 27` with a larger number for a lower quality and smaller filesize (or a smaller number for the opposite). Please experiment with crf values to optimize for filesize. It is often the case that you can make the BGA much smaller with an indistinguishable drop in quality.
+Replace `-crf 27` with a larger number for a lower quality and smaller filesize (or a smaller number for the opposite).
+
+Try to experiment with different crf values to optimize for file size. It is often the case that you can make the BGA much smaller with an indistinguishable drop in quality.
 
 ## Explanation of the commands
 Let's explain how the command works:
