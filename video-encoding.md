@@ -49,6 +49,12 @@ Aka the "just make it work, thanks" guide. This guide is for windows, though thi
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=256:256:force_original_aspect_ratio=decrease,pad=256:256:(ow-iw)/2:(oh-ih)/2,setsar=1" -an -c:v wmv2 -q:v 4 _bga.wmv
 ```
 
+640x480 wmv2 video (recommended), padded with black bars to make it 4:3. [[SAMPLE (R.I.P.), 54.2MB]](https://github.com/wcko87/bms-checklist/assets/27341392/8069b5d8-c5eb-46c0-ba9c-cfd949cec0c6)
+
+```
+.\ffmpeg.exe -i raw_video.mp4 -vf "scale=640:480:force_original_aspect_ratio=decrease,pad=640:480:(ow-iw)/2:(oh-ih)/2,setsar=1" -an -c:v wmv2 -q:v 8 _bga.wmv
+```
+
 512x512 wmv2 video, padded with black bars to make it square. [[SAMPLE (R.I.P.), 68.2MB]](https://github.com/wcko87/bms-checklist/assets/27341392/f2c5967d-a19a-4a94-b1af-44edd66e9940)
 
 ```
