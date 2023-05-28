@@ -18,7 +18,7 @@ Unfortunately there doesn't seem to be a consensus on this.
 Some people pad their BGAs with black bars to 1:1 resolutions as many skins have square BGA windows and many people use the setting to stretch BGAs.
 On ther other hand some skins have 4:3 BGA windows 
 
-- 256x256: This is the maximum resolution for LR2SD BGAs.
+- 256x256: Note that LR2SD can only render up to 256x256 for BGAs.
 - 512x512: A larger resolution for square BGAs. May be used for LR2HD, though 480p may be preferred.
 - 640x480: Possibly the most common resolution for rectangular BGAs.
 - (?)x720: Usually only for mp4 BGAs targeting people on beatoraja.
@@ -48,7 +48,7 @@ Aka the "just make it work, thanks" guide. This guide is for windows, though thi
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=640:480:force_original_aspect_ratio=decrease,pad=640:480:(ow-iw)/2:(oh-ih)/2,setsar=1" -an -c:v wmv2 -q:v 8 _bga.wmv
 ```
 
-256x256 wmv2 video, padded with black bars to make it square. Note that LR2SD can only render up to 256x256 for BGAs. [[SAMPLE (R.I.P.), 11.4MB]](https://github.com/wcko87/bms-checklist/assets/27341392/8d53e726-a4c4-48ba-b3a1-a6a008728e57)
+256x256 wmv2 video (max resolution for LR2SD), padded with black bars to make it square. [[SAMPLE (R.I.P.), 11.4MB]](https://github.com/wcko87/bms-checklist/assets/27341392/8d53e726-a4c4-48ba-b3a1-a6a008728e57)
 ```
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=256:256:force_original_aspect_ratio=decrease,pad=256:256:(ow-iw)/2:(oh-ih)/2,setsar=1" -an -c:v wmv2 -q:v 8 _bga.wmv
 ```
