@@ -132,8 +132,11 @@ Example:
 Note that you can't use `-vf` multiple times in a single command. To combine multiple video filters (e.g. crop and scale), use commas.
 
 
-### Complex filter to letterbox video with a blurred version of itself
-Some people use this instead of black bars for letterboxing.
+### Letterbox video with blurred background (instead of black bars)
+This FFmpeg command letterboxes the video with a blurred version of itself instead of black bars.
+
+[Image Example](https://github.com/wcko87/bms-checklist/assets/27341392/6c5cd665-4c45-4a18-9133-71bcd5cf3520)
+
 
 Use `-filter_complex` instead of `-vf` if you want to apply more complex operations like this.
 ```
