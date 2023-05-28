@@ -36,8 +36,8 @@ FFmpeg can also be used to crop video files, I will explain how to do so in the 
 ## Using FFmpeg to convert video files
 This guide is for windows, though things aren't too different on mac/linux.
 
-1. Download [FFmpeg](https://ffmpeg.org/download.html)
-    - DON'T DOWNLOAD THE SOURCE CODE! Look under "get packages and executable files" and select your operating system. `ffmpeg-git-essentials.7z` is enough for what you need.
+1. [Download FFmpeg from here](https://ffmpeg.org/download.html)
+    - DON'T DOWNLOAD THE SOURCE CODE! Look under "get packages and executable files", click windows -> windows builds by gyan.dev. `ffmpeg-git-essentials.7z` is enough for what you need.
     - Direct windows download for the lazy: [ffmpeg-git-essentials.7z](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)
 2. Look for ffmpeg.exe in the bin folder. This is the only file you need.
 3. Put ffmpeg.exe and your raw video file (which I will be calling `raw_video.mp4` from now on) in the same folder.
