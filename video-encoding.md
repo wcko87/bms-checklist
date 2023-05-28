@@ -8,7 +8,7 @@ I recommend using wmv (wmv2) for LR2 and mp4 (H.264) for beatoraja.
 
 Thus, it's possible to include both a wmv and mp4 version of your BGA in your bms.
 
-Some people use the mp4 version for a high quality HD BGA with a huge file size. Howver, I think there is a much better purpose for mp4 BGAs - to include a decent mid-quality (480p) BGA with a low file size (10-30MB).
+Some people use the mp4 version for a high quality HD BGA with a huge file size. Howver, I think there is a much better purpose for mp4 BGAs - to include a decent mid-quality (480p) BGA with a low file size (10-30MB) that won't look out of place when viewed in a HD play skin.
 
 As a rough guide, try to keep your BGA files below 40MB in size.
 
