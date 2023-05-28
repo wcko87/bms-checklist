@@ -2,13 +2,13 @@
 - If you want widespread support, use wmv or mpeg for your videos. This is as a typical LR2 setup can only play wmv or mpeg videos.
 - People using beatoraja will be able to play BGAs using formats like mp4 and webm, which is significant as they allow much higher quality video for smaller file sizes.
 
-I recommend using wmv (wmv2) for LR2 and mp4 (h264) for beatoraja.
+I recommend using wmv (wmv2) for LR2 and mp4 (H.264) for beatoraja.
 
 **TIP**: If you have both `_bga.wmv` and `_bga.mp4` in your bms folder, and you specify "\_bga.wmv" in your bms, LR2 will play the wmv, while beatoraja will play the mp4.
 
 Thus, it's possible to include both a wmv and mp4 version of your BGA in your bms.
 
-Some people use the mp4 version for a high quality HD BGA with a huge file size. Howver, I think there is a much better purpose for mp4 BGAs - to include a decent mid-quality BGA with a low file size (10-30MB).
+Some people use the mp4 version for a high quality HD BGA with a huge file size. Howver, I think there is a much better purpose for mp4 BGAs - to include a decent mid-quality (480p) BGA with a low file size (10-30MB).
 
 As a rough guide, try to keep your BGA files below 40MB in size.
 
