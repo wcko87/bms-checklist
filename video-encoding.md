@@ -66,12 +66,12 @@ Replace `-q:v 8` with a larger number for a lower quality and smaller filesize (
 Note: the output file will be `_bga.mp4`.
 
 ### Converting to MP4
-###x480 (aka 480p) H.264 video (recommended) [[SAMPLE (R.I.P.), 22.9MB]](https://github.com/wcko87/bms-checklist/assets/27341392/634dc725-3151-4a34-8c99-43970b556570) [[SAMPLE (竹), 16.3MB]](https://github.com/wcko87/bms-checklist/assets/27341392/f3a66587-7d20-4072-a22d-4da961bd48f9)
+(?)x480 (aka 480p) H.264 video (recommended) [[SAMPLE (R.I.P.), 22.9MB]](https://github.com/wcko87/bms-checklist/assets/27341392/634dc725-3151-4a34-8c99-43970b556570) [[SAMPLE (竹), 16.3MB]](https://github.com/wcko87/bms-checklist/assets/27341392/f3a66587-7d20-4072-a22d-4da961bd48f9)
 ```
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=-2:480" -an -crf 30 _bga.mp4
 ```
 
-###x720 (aka 720p) H.264 video [[SAMPLE (R.I.P.), 65.5MB]](https://github.com/wcko87/bms-checklist/assets/27341392/13c1d7c8-1f48-4f74-900d-312e84c812a7) [[SAMPLE (竹), 45.7MB]](https://github.com/wcko87/bms-checklist/assets/27341392/e82ce68c-b40b-46d0-8f7f-5616be765767)
+(?)x720 (aka 720p) H.264 video [[SAMPLE (R.I.P.), 65.5MB]](https://github.com/wcko87/bms-checklist/assets/27341392/13c1d7c8-1f48-4f74-900d-312e84c812a7) [[SAMPLE (竹), 45.7MB]](https://github.com/wcko87/bms-checklist/assets/27341392/e82ce68c-b40b-46d0-8f7f-5616be765767)
 ```
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=-2:720" -an -crf 27 _bga.mp4
 ```
