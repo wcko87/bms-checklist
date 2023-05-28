@@ -4,7 +4,7 @@
 
 I recommend using wmv (wmv2) for LR2 and mp4 (H.264) for beatoraja.
 
-**TIP**: If you have both `_bga.wmv` and `_bga.mp4` in your bms folder, and you specify "\_bga.wmv" in your bms, LR2 will play the wmv, while beatoraja will play the mp4.
+**TIP**: If you have both `_bga.wmv` and `_bga.mp4` in your bms folder, and you specify "\_bga.wmv" in your bms, LR2 will play the wmv, while beatoraja will play the mp4. (The same applies for .mpg instead of .wmv if you prefer to use .mpg)
 
 Thus, it's possible to include both a wmv and mp4 version of your BGA in your bms.
 
