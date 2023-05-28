@@ -60,13 +60,13 @@ Replace `-q:v 4` with a larger number for a lower quality and smaller filesize (
 Note: the output file will be `_bga.mp4`.
 
 ### Converting to MP4
-??x480 (aka 480p) H.264 video (recommended) [[SAMPLE (R.I.P), 22.9MB]](https://github.com/wcko87/bms-checklist/assets/27341392/634dc725-3151-4a34-8c99-43970b556570)
+###x480 (aka 480p) H.264 video (recommended) [[SAMPLE (R.I.P), 22.9MB]](https://github.com/wcko87/bms-checklist/assets/27341392/634dc725-3151-4a34-8c99-43970b556570)
 
 ```
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=-2:480" -an -crf 30 _bga.mp4
 ```
 
-??x720 (aka 720p) H.264 video [[SAMPLE (R.I.P), 65.5MB]](https://github.com/wcko87/bms-checklist/assets/27341392/13c1d7c8-1f48-4f74-900d-312e84c812a7)
+###x720 (aka 720p) H.264 video [[SAMPLE (R.I.P), 65.5MB]](https://github.com/wcko87/bms-checklist/assets/27341392/13c1d7c8-1f48-4f74-900d-312e84c812a7)
 
 ```
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=-2:720" -an -crf 27 _bga.mp4
