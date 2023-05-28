@@ -58,7 +58,7 @@ Aka the "just make it work, thanks" guide. This guide is for windows, though thi
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=512:512:force_original_aspect_ratio=decrease,pad=512:512:(ow-iw)/2:(oh-ih)/2,setsar=1" -an -c:v wmv2 -q:v 8 _bga.wmv
 ```
 
-Replace `-q:v 4` with a larger number for a lower quality and smaller filesize (or a smaller number for the opposite).
+Replace `-q:v 8` with a larger number for a lower quality and smaller filesize (or a smaller number for the opposite).
 
 Note: the output file will be `_bga.mp4`.
 
@@ -89,7 +89,7 @@ Let's explain how the command works:
 
 Now let's explain this command:
 ```
-.\ffmpeg.exe -i raw_video.mp4 -vf "scale=512:512:force_original_aspect_ratio=decrease,pad=512:512:(ow-iw)/2:(oh-ih)/2,setsar=1" -an -c:v wmv2 -q:v 4 _bga.wmv
+.\ffmpeg.exe -i raw_video.mp4 -vf "scale=512:512:force_original_aspect_ratio=decrease,pad=512:512:(ow-iw)/2:(oh-ih)/2,setsar=1" -an -c:v wmv2 -q:v 8 _bga.wmv
 ```
 - `-vf "scale=512:512:force_original_aspect_ratio=decrease,pad=512:512:(ow-iw)/2:(oh-ih)/2,setsar=1"`
   - This is a complicated command used to pad the video with black bars and resize it to 512x512.
@@ -145,7 +145,7 @@ This FFmpeg command letterboxes the video with a blurred version of itself inste
 
 Use `-filter_complex` instead of `-vf` if you want to apply more complex operations like this.
 ```
-.\ffmpeg.exe -i raw_video.mkv -filter_complex "[0:v]scale=512:512:force_original_aspect_ratio=increase,crop=512:512:(ow-iw)/2:(oh-ih)/2,boxblur=20[v1];[0:v]scale=512:512:force_original_aspect_ratio=decrease[v2];[v1][v2]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2[vid]" -map [vid] -an -c:v wmv2 -q:v 4 _bga.wmv
+.\ffmpeg.exe -i raw_video.mkv -filter_complex "[0:v]scale=512:512:force_original_aspect_ratio=increase,crop=512:512:(ow-iw)/2:(oh-ih)/2,boxblur=20[v1];[0:v]scale=512:512:force_original_aspect_ratio=decrease[v2];[v1][v2]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2[vid]" -map [vid] -an -c:v wmv2 -q:v 8 _bga.wmv
 ```
 You can change the strength of the blur by editing replacing `boxblur=20` with a larger/smaller value. The resolution used in this complex filter is 512x512. It is repeated three times in the command, so make sure you change all of them if you want a different resolution.
 
