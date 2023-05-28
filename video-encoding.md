@@ -1,3 +1,6 @@
+## BMS BGA Encoding Guide
+Linked from the [BMS Production Checklist](https://wcko87.github.io/bms-checklist/).
+
 # BMS BGA Video Formats and Compatibility
 - If you want widespread support, use wmv or mpeg for your videos. This is as a typical LR2 setup can only play wmv or mpeg videos.
 - People using beatoraja will be able to play BGAs using formats like mp4 and webm, which is significant as they allow much higher quality video for smaller file sizes.
