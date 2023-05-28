@@ -34,15 +34,15 @@ Using a command line tool may sound daunting, but I'll try to make the following
 FFmpeg can also be used to crop video files, I will explain how to do so in the advanced section.
 
 ## Using FFmpeg to convert video files
-Aka the "just make it work, thanks" guide. This guide is for windows, though things aren't too different on mac/linux.
+This guide is for windows, though things aren't too different on mac/linux.
 
 1. Download [FFmpeg](https://ffmpeg.org/download.html)
     - DON'T DOWNLOAD THE SOURCE CODE! Look under "get packages and executable files" and select your operating system. `ffmpeg-git-essentials.7z` is enough for what you need.
     - Direct windows download for the lazy: [ffmpeg-git-essentials.7z](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)
 2. Look for ffmpeg.exe in the bin folder. This is the only file you need.
-3. Put ffmpeg.exe and your raw video file (which I will be calling raw_video.mp4 from now on) in the same folder.
+3. Put ffmpeg.exe and your raw video file (which I will be calling `raw_video.mp4` from now on) in the same folder.
 4. Shift+rightclick somewhere in the folder, and click "open command window here" or "open powershell window here". This brings up the command window in the selected folder.
-5. Now you can use ffmpeg by typing the commands below.
+5. Now you can use ffmpeg by copy-pasting the commands below.
 
 ### Converting to WMV
 256x256 wmv2 video (max resolution for LR2SD), padded with black bars to make it square. [[SAMPLE (R.I.P.), 11.4MB]](https://github.com/wcko87/bms-checklist/assets/27341392/8d53e726-a4c4-48ba-b3a1-a6a008728e57) [[SAMPLE (竹), 14.6MB]](https://github.com/wcko87/bms-checklist/assets/27341392/b2c5ab92-2369-4adf-aca8-4ca54e5aaa3d)
