@@ -43,12 +43,14 @@ Aka the "just make it work, thanks" guide. This guide is for windows, though thi
 5. Now you can use ffmpeg by typing the commands below.
 
 ### Converting to WMV
-256x256 wmv2 video (recommended), padded with black bars to make it square. Note that LR2SD can only render up to 256x256 for BGAs.
+256x256 wmv2 video (recommended), padded with black bars to make it square. Note that LR2SD can only render up to 256x256 for BGAs. [[SAMPLE (R.I.P), 21.7MB]](https://github.com/wcko87/bms-checklist/assets/27341392/5b626b32-9e8d-44f1-af36-b5f6f23f5096)
+
 ```
-.\ffmpeg.exe -i raw_video.mp4 -vf "scale=512:512:force_original_aspect_ratio=decrease,pad=512:512:(ow-iw)/2:(oh-ih)/2,setsar=1" -an -c:v wmv2 -q:v 4 _bga.wmv
+.\ffmpeg.exe -i raw_video.mp4 -vf "scale=256:256:force_original_aspect_ratio=decrease,pad=256:256:(ow-iw)/2:(oh-ih)/2,setsar=1" -an -c:v wmv2 -q:v 4 _bga.wmv
 ```
 
-512x512 wmv2 video, padded with black bars to make it square.
+512x512 wmv2 video, padded with black bars to make it square. [[SAMPLE (R.I.P), 68.2MB]](https://github.com/wcko87/bms-checklist/assets/27341392/f2c5967d-a19a-4a94-b1af-44edd66e9940)
+
 ```
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=512:512:force_original_aspect_ratio=decrease,pad=512:512:(ow-iw)/2:(oh-ih)/2,setsar=1" -an -c:v wmv2 -q:v 4 _bga.wmv
 ```
@@ -58,12 +60,14 @@ Replace `-q:v 4` with a larger number for a lower quality and smaller filesize (
 Note: the output file will be `_bga.mp4`.
 
 ### Converting to MP4
-??x480 (aka 480p) H.264 video (recommended)
+??x480 (aka 480p) H.264 video (recommended) [[SAMPLE (R.I.P), 22.9MB]](https://github.com/wcko87/bms-checklist/assets/27341392/634dc725-3151-4a34-8c99-43970b556570)
+
 ```
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=-2:480" -an -crf 30 _bga.mp4
 ```
 
-??x720 (aka 720p) H.264 video
+??x720 (aka 720p) H.264 video [[SAMPLE (R.I.P), 65.5MB]](https://github.com/wcko87/bms-checklist/assets/27341392/13c1d7c8-1f48-4f74-900d-312e84c812a7)
+
 ```
 .\ffmpeg.exe -i raw_video.mp4 -vf "scale=-2:720" -an -crf 27 _bga.mp4
 ```
