@@ -2,6 +2,8 @@
 This is a list of things to look out for when making / before submitting a BMS to an event.
 There are many common pitfalls that I think can be easily avoided if you know what to look out for.
 
+Note: SayakaIsBaka has created an [automated checker](https://sayakaisbaka.github.io/bms-auditor) that checks for some of the errors covered in this checklist.
+
 # During BMS Production
 
 ### Encode BMS files in SHIFT-JIS
