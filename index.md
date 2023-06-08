@@ -92,6 +92,8 @@ Before submitting, use a BMS diff tool to check that your keysounds have not bee
   - Search (ctrl+f) for "Anzu BMS Diff Toolをダウンロード" if you can't find the download link.
 - [Online BMS diff tool](https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm)
 
+# BGA Encoding Tips
+See [Video Encoding](video-encoding).
 
 # Chart Metadata Tips
 Here's an explanation of the different chart metadata fields, because some of them may not be immediately obvious.
