@@ -159,3 +159,8 @@ Charts in general can be very subjective. But there are some pointers (you don't
 3. Try to keep the kick drum on a consistent key (key 1 is the most popular). It's okay to swap the kick lane around during the chart, but it may feel awkward if the kick keysounds is spread over arbitrarily lanes, especially if it's a consistent kick every 4/4 beat). I sometimes swap the kick key every 4 or 8 measures.
 4. Long scratch notes on a controller requires the player to use a hand to constantly rotate the turntable. Beware of potential impossible patterns that can result from improper use of these.
 5. Please test play the chart or get someone else to test play them if you are unable to.
+
+--------------------
+### Other
+- Written by: [w](https://wcko87.github.io)
+- Github repo: [bms-checklist](https://github.com/wcko87/bms-checklist)
