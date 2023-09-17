@@ -161,7 +161,7 @@ Explanation of the above complex filter:
 - `[0:v]scale=512:512:force_original_aspect_ratio=increase,crop=512:512:(ow-iw)/2:(oh-ih)/2,boxblur=20[v1]`
   - Take the input [0:v], scale to the smallest possible size that fully contains a 512x512 box (while maintaining the aspect ratio), crop to 512x512 (centered), then box blur with strength 20. Save as [v1].
 - `[0:v]scale=512:512:force_original_aspect_ratio=decrease[v2]`
-  - Take another copy of the input [0:v], scale to the largest possible size that fully contains a 512x512 box (while maintaining the aspect ratio). Save as [v2].
+  - Take another copy of the input [0:v], scale to the largest possible size that is fully contained in a 512x512 box (while maintaining the aspect ratio). Save as [v2].
 - `[v1][v2]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2[vid]`
   - Overlay [v2] over [v1] centered. Save as [vid]
 - `-map [vid]` (outside of filter_complex)
